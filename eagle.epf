@@ -383,7 +383,7 @@ UsedLibrary="/home/nathanpc/.eagle/lbr/SparkFun/SparkFun-Sensors.lbr"
 
 [Win_1]
 Type="Board Editor"
-Loc="0 0 599 399"
+Loc="65 24 664 423"
 State=0
 Number=3
 File="/home/nathanpc/eagle/Power Supply/Revision A.brd"
