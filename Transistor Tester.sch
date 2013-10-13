@@ -19330,13 +19330,6 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="259.08" y="20.32" size="1.778" layer="91">Maybe measure the
-voltage drop across
-the transsitor, etc.
-
-Also, add a voltage ref
-to make the readings
-more accurate.</text>
 <text x="129.54" y="-38.1" size="1.778" layer="91">Test if the battery
 holder fits the
 footprint</text>
@@ -19823,8 +19816,14 @@ LED horizontally</text>
 <approved hash="104,1,193.04,78.74,LCD,K,N$3,,,"/>
 <approved hash="104,1,193.04,114.3,LCD,VDD,VCC,,,"/>
 <approved hash="104,1,193.04,116.84,LCD,VSS,GND,,,"/>
-<approved hash="104,1,236.22,0,IC1,AVCC,VCC,,,"/>
+<approved hash="104,1,99.06,-33.02,BAT1,-,GND,,,"/>
+<approved hash="104,1,99.06,-22.86,BAT1,+,N$1,,,"/>
+<approved hash="104,1,99.06,-22.86,BAT2,-,N$1,,,"/>
+<approved hash="104,1,99.06,-12.7,BAT2,+,N$6,,,"/>
+<approved hash="104,1,236.22,0,MCU,AVCC,VCC,,,"/>
 <approved hash="115,1,43.18,67.1618,PTH_PROBE,,,,,"/>
+<approved hash="115,1,81.6017,-21.59,ON,,,,,"/>
+<approved hash="115,1,107.95,-3.80153,SPWR,,,,,"/>
 </errors>
 </schematic>
 </drawing>
